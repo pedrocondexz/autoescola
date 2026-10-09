@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container_formulario {
+    width: 400px;
+    max-width: 100%;
+    background: rgba(236, 98, 236, 0.479);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.container_formulario form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#botao {
+    width: 100%;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+    .div1 {
+        font-size: 17px;
+    }
+
+    .container_formulario {
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+    }
+}
